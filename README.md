@@ -25,4 +25,4 @@ This section will need to be research on how to make this process better.
 1. Run `npm run commit` and fill in fields
 
 ## Todo's
-See [Project Roadmap]() 
+See [Project Roadmap](https://github.com/joshvillahermosa/react-native-vern-seed/projects/1) 
