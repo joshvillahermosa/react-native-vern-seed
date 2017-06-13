@@ -1,0 +1,12 @@
+[
+  {
+    "textName": "View One",
+    "isDisabled": false,
+    "view": "ViewOne"
+  },
+  {
+    "textName": "View Two",
+    "isDisabled": false,
+    "view": "ViewTwo"
+  }
+]

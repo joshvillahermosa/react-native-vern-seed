@@ -1,0 +1,63 @@
+{
+  "name": "react-native-vern-seed",
+  "version": "1.0.0",
+  "description": "A React Native Vector icons Element Redux Naviation Seed",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "lint:fix": "eslint src --fix",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "prepush": "npm test",
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "eslint src",
+    "test:unit": "jest --coverage"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-elements": "^0.12.2",
+    "react-native-vector-icons": "^4.2.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "20.0.1",
+    "babel-preset-react-native": "1.9.2",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "husky": "^0.13.4",
+    "jest": "^20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "redux-devtools": "^3.4.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshvillahermosa/react-native-vern-seed.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Native Base",
+    "Redux",
+    "Javascript"
+  ],
+  "author": "Joshua John Villahermosa <joshvillahermosa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshvillahermosa/react-native-vern-seed/issues"
+  },
+  "homepage": "https://github.com/joshvillahermosa/react-native-vern-seed#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
